@@ -1,0 +1,21 @@
+build-system:
+  requires: ["setuptools", "wheel"]
+  build-backend: "setuptools.build_meta"
+
+tool:
+  poetry:
+    name: "XAfunction"
+    version: "1.0.0"
+    description: "add XA function to python!"
+    authors:
+      - "Daniel Biletskyy <itsavg29@example.com>"
+
+  poetry.dependencies:
+    python: "^3.6"
+
+build-system:
+  sdist:
+    formats: ["rar"]
+
+  wheel:
+    universal: false
